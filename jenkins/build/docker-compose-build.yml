@@ -1,0 +1,6 @@
+services:
+  app:
+    image: "b4-jenkins-project:$BUILD_TAG"
+    build:
+      context: .
+      dockerfile: Dockerfile-Java
