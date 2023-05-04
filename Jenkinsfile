@@ -26,7 +26,7 @@ pipeline {
             post {
                 always {
                    junit 'maven-log4j/target/surefire-reports/*.xml'
-                    jacoco()
+                   jacoco()
                 }
             }
         }
